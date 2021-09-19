@@ -5,7 +5,8 @@
 
 
 :root{
-    --primary-color:#FCD34D;
+    /* --primary-color:#FCD34D; */
+    --primary-color:coral;
 }
 body{padding:0px;
 margin:0px;
