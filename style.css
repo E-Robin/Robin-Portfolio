@@ -109,4 +109,7 @@ img {
     margin: auto;}
 
     
-    
+    #navbar{
+        position: sticky;
+        top: 0px;
+    }
