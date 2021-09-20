@@ -5,8 +5,9 @@
 
 
 :root{
-    /* --primary-color:#FCD34D; */
-    --primary-color:coral;
+    /* --primary-color:rgba(156, 153, 153, 0.993); */
+    /* --primary-color:coral; */
+    --primary-color:rgb(89, 174, 207);
 }
 body{padding:0px;
 margin:0px;
@@ -69,12 +70,14 @@ margin-bottom:6px;}
 
 
 header{text-align:center;
-    background-color: rgb(86, 205, 209);
-    margin-bottom: 0%;
-    width:95%;
+     /* background-color: rgb(86, 205, 209);  */
+    /* background-color:rgba(148, 133, 128, 0.767) ; */
+background-color: skyblue;
+     margin-bottom: 0%;
+    width:100%;
     margin: auto;
     border-radius:2rem;
-    color:grey;
+    color:white;
     padding:0.08rem;
 }
 
@@ -111,10 +114,11 @@ section.two{background-color: whitesmoke;}
 
 img {
     max-width: 80%;
-    width: 200px;
+    width: 150px;
     display: block;
     margin: auto;
-border-radius: 50%;}
+border-radius: 50%;
+border:6px solid rgb(255, 255, 255);}
 
     
     #navbar{
