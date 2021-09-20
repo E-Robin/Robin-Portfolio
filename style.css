@@ -118,14 +118,14 @@ img {
     .sect .link{
          padding:initial;
         color: white;
-        font-size: 0.9em;
+        font-size: 0.8em;
         margin:0px 5px;
         text-decoration: none;
         text-align:center;
        }
        li{display:inline;
         font-weight:bold;
-        padding:0.5em;
+        padding:0em;
         text-align: center;
         
        }
@@ -145,9 +145,17 @@ img {
             padding:1em;
             border-top-right-radius:2em ;
             height:5em;
-        font-size:1em}
+        font-size:0.8em}
         footer h2{
-        margin:0px;
+        margin:0.5em;
+                    }
+                    footer li{
+                        padding:0.2em;
+                    }
+                    footer ul{
+                        margin:0em;
+                        text-align: center;
+                        padding: 0em;
                     }
   }
    
