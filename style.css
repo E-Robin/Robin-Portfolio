@@ -113,3 +113,31 @@ img {
         position: sticky;
         top: 0px;
     }
+
+  @media screen and (max-width:600px) {
+    .link{
+         padding:initial;
+        color: white;
+        font-size: 0.8em;
+        margin:0px 5px;
+        text-decoration: none;
+        text-align:center;
+       }
+       li{display:inline;
+        font-weight:bold;
+        padding:initial;
+        text-align: center;
+        
+       }
+       ul.sect{text-align: center;
+        
+        padding:0.8em ;
+        border-bottom-left-radius: 1.5em;
+        height:3em;
+        margin-top: 0px;
+        }
+        .sect div{
+            text-align: center;
+        }
+  }
+   
