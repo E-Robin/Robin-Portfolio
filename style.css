@@ -69,7 +69,14 @@ margin-bottom:6px;}
 
 
 header{text-align:center;
-color:rgb(139, 134, 134)}
+    background-color: rgb(86, 205, 209);
+    margin-bottom: 0%;
+    width:90%;
+    margin: auto;
+    border-radius:2rem;
+    color:grey;
+    padding:0.08rem;
+}
 
 footer{text-align: center;
 background-color: var(--primary-color);
@@ -104,9 +111,10 @@ section.two{background-color: whitesmoke;}
 
 img {
     max-width: 80%;
-    width: 350px;
+    width: 200px;
     display: block;
-    margin: auto;}
+    margin: auto;
+border-radius: 50%;}
 
     
     #navbar{
@@ -159,3 +167,8 @@ img {
                     }
   }
    
+
+  hr{
+      margin-top: 0px;
+  }
+
